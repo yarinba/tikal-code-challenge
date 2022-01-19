@@ -21,7 +21,7 @@ const Table: React.FC<ITableProps> = ({ vehicleData }) => {
 					<td>{vehicleData?.vehicleName}</td>
 					<td>
 						{vehicleData?.homeplanets.map(
-							(planet) => `name: ${planet.name}, population: ${planet.population.toLocaleString()}\n`
+							(planet) => `name: ${planet.name}, population: ${planet.population.toLocaleString('en-US')}\n`
 						)}
 					</td>
 					<td>{vehicleData?.relatedPilotsNames.map((pilot) => `${pilot}\n`)}</td>
