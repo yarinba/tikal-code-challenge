@@ -1,0 +1,24 @@
+$tikal-orange: #f36a38;
+
+.styled-table {
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	width: 80%;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+	thead tr {
+		background-color: $tikal-orange;
+		color: white;
+	}
+
+	th,
+	td {
+		padding: 12px 15px;
+	}
+
+	td {
+		background-color: white;
+	}
+}
